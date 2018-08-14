@@ -100,6 +100,7 @@ endif
 set viminfo+=n~/.vim/viminfo
 
 " Colorscheme from https://github.com/tomasiser/vim-code-dark
+set runtimepath^=~/.vim/bundle/vim-code-dark
 colorscheme codedark
 
 " Spaces & Tabs 
@@ -143,4 +144,5 @@ set foldnestmax=10
 nnoremap <space> za
 set foldmethod=indent   " fold based on indent level
 
+" Airline from https://github.com/vim-airline/vim-airline
 set runtimepath^=~/.vim/bundle/vim-airline
