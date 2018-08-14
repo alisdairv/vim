@@ -143,3 +143,4 @@ set foldnestmax=10
 nnoremap <space> za
 set foldmethod=indent   " fold based on indent level
 
+set runtimepath^=~/.vim/bundle/vim-airline
