@@ -146,3 +146,11 @@ set foldmethod=indent   " fold based on indent level
 
 " Airline from https://github.com/vim-airline/vim-airline
 set runtimepath^=~/.vim/bundle/vim-airline
+
+" Backups
+" Send backups to /tmp
+set backup
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set backupskip=/tmp/*,/private/tmp/*
+set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set writebackup
